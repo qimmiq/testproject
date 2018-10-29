@@ -7,7 +7,13 @@
     "startMarkerType" : 0,
     "endMarkerType" : 0
   },
-  "rotation" : 0,
+  "horizontalRulerData" : {
+    "base" : 0,
+    "_class" : "rulerData",
+    "guides" : [
+
+    ]
+  },
   "frame" : {
     "x" : 0,
     "y" : 0,
@@ -17,7 +23,7 @@
     "width" : 300
   },
   "do_objectID" : "8387E4DF-2662-4447-AD77-E102BB20D953",
-  "layerListExpandedType" : 0,
+  "hasClickThrough" : true,
   "exportOptions" : {
     "shouldTrim" : false,
     "includedLayerIds" : [
@@ -29,15 +35,9 @@
 
     ]
   },
-  "hasClickThrough" : true,
-  "horizontalRulerData" : {
-    "base" : 0,
-    "_class" : "rulerData",
-    "guides" : [
-
-    ]
-  },
   "includeInCloudUpload" : true,
+  "layerListExpandedType" : 0,
+  "rotation" : 0,
   "verticalRulerData" : {
     "base" : 0,
     "_class" : "rulerData",
@@ -46,11 +46,9 @@
     ]
   },
   "isFlippedVertical" : false,
-  "nameIsFixed" : false,
+  "clippingMaskMode" : 0,
   "name" : "Page 1",
   "isVisible" : true,
-  "resizingType" : 0,
-  "clippingMaskMode" : 0,
   "hasClippingMask" : false,
   "layers" : [
     {
@@ -62,7 +60,13 @@
         "startMarkerType" : 0,
         "endMarkerType" : 0
       },
-      "rotation" : 0,
+      "horizontalRulerData" : {
+        "base" : 0,
+        "_class" : "rulerData",
+        "guides" : [
+
+        ]
+      },
       "frame" : {
         "x" : 416,
         "y" : 139,
@@ -72,7 +76,7 @@
         "width" : 728
       },
       "do_objectID" : "4C2AC4CD-0DFF-4D3C-8367-BCB74BE21A7A",
-      "layerListExpandedType" : 0,
+      "hasClickThrough" : true,
       "exportOptions" : {
         "shouldTrim" : false,
         "includedLayerIds" : [
@@ -84,15 +88,9 @@
 
         ]
       },
-      "hasClickThrough" : true,
       "hasBackgroundColor" : false,
-      "horizontalRulerData" : {
-        "base" : 0,
-        "_class" : "rulerData",
-        "guides" : [
-
-        ]
-      },
+      "includeInCloudUpload" : true,
+      "layerListExpandedType" : 0,
       "backgroundColor" : {
         "red" : 1,
         "_class" : "color",
@@ -100,8 +98,8 @@
         "blue" : 1,
         "green" : 1
       },
-      "includeInCloudUpload" : true,
       "resizesContent" : false,
+      "rotation" : 0,
       "verticalRulerData" : {
         "base" : 0,
         "_class" : "rulerData",
@@ -110,16 +108,9 @@
         ]
       },
       "isFlippedVertical" : false,
-      "nameIsFixed" : false,
+      "clippingMaskMode" : 0,
       "name" : "Artboard",
       "isVisible" : true,
-      "resizingType" : 0,
-      "userInfo" : {
-        "io.magicsketch.mirror" : {
-          "highestQuality" : 1
-        }
-      },
-      "clippingMaskMode" : 0,
       "hasClippingMask" : false,
       "layers" : [
         {
@@ -143,8 +134,8 @@
                   "blue" : 0,
                   "green" : 0
                 },
-                "textStyleVerticalAlignmentKey" : 0,
                 "kerning" : 0,
+                "textStyleVerticalAlignmentKey" : 0,
                 "paragraphStyle" : {
                   "allowsDefaultTighteningForTruncation" : 0,
                   "_class" : "paragraphStyle",
@@ -158,7 +149,7 @@
             "startMarkerType" : 0,
             "endMarkerType" : 0
           },
-          "rotation" : 0,
+          "glyphBounds" : "{{0, 4}, {39, 13}}",
           "frame" : {
             "x" : 92,
             "y" : 104,
@@ -180,26 +171,23 @@
 
             ]
           },
-          "glyphBounds" : "{{0, 4}, {39, 13}}",
+          "rotation" : 0,
           "dontSynchroniseWithSymbol" : false,
           "lineSpacingBehaviour" : 2,
           "textBehaviour" : 0,
           "isFlippedVertical" : false,
-          "nameIsFixed" : false,
+          "clippingMaskMode" : 0,
           "name" : "TEST",
           "isVisible" : true,
-          "resizingType" : 0,
-          "clippingMaskMode" : 0,
           "hasClippingMask" : false,
+          "nameIsFixed" : false,
+          "resizingType" : 0,
           "isLocked" : false,
           "attributedString" : {
-            "string" : "TEST",
-            "_class" : "attributedString",
             "attributes" : [
               {
                 "length" : 4,
                 "_class" : "stringAttribute",
-                "location" : 0,
                 "attributes" : {
                   "MSAttributedStringFontAttribute" : {
                     "attributes" : {
@@ -222,9 +210,12 @@
                     "_class" : "paragraphStyle",
                     "alignment" : 0
                   }
-                }
+                },
+                "location" : 0
               }
-            ]
+            ],
+            "_class" : "attributedString",
+            "string" : "TEST"
           },
           "shouldBreakMaskChain" : false,
           "isFixedToViewport" : false,
@@ -232,18 +223,153 @@
           "booleanOperation" : -1,
           "resizingConstraint" : 47,
           "automaticallyDrawOnUnderlyingPath" : false
+        },
+        {
+          "isFlippedHorizontal" : false,
+          "hasConvertedToNewRoundCorners" : true,
+          "rotation" : 0,
+          "frame" : {
+            "x" : 80,
+            "y" : 225,
+            "_class" : "rect",
+            "constrainProportions" : false,
+            "height" : 471,
+            "width" : 420
+          },
+          "do_objectID" : "C8D633CE-21E9-42FB-A62F-EB9D42AAF001",
+          "layerListExpandedType" : 0,
+          "exportOptions" : {
+            "shouldTrim" : false,
+            "includedLayerIds" : [
+
+            ],
+            "layerOptions" : 0,
+            "_class" : "exportOptions",
+            "exportFormats" : [
+
+            ]
+          },
+          "edited" : false,
+          "style" : {
+            "_class" : "style",
+            "borders" : [
+              {
+                "thickness" : 2,
+                "fillType" : 0,
+                "_class" : "border",
+                "isEnabled" : false,
+                "position" : 1,
+                "color" : {
+                  "red" : 0,
+                  "_class" : "color",
+                  "alpha" : 1,
+                  "blue" : 0,
+                  "green" : 0
+                }
+              }
+            ],
+            "miterLimit" : 10,
+            "fills" : [
+              {
+                "_class" : "fill",
+                "color" : {
+                  "red" : 0.77003613945578231,
+                  "_class" : "color",
+                  "alpha" : 1,
+                  "blue" : 0.14632631185365561,
+                  "green" : 0.14632631185365561
+                },
+                "patternTileScale" : 1,
+                "fillType" : 0,
+                "noiseIntensity" : 0,
+                "patternFillType" : 1,
+                "noiseIndex" : 0,
+                "isEnabled" : true
+              }
+            ],
+            "startMarkerType" : 0,
+            "windingRule" : 0,
+            "endMarkerType" : 0
+          },
+          "isFlippedVertical" : false,
+          "clippingMaskMode" : 0,
+          "name" : "Rectangle",
+          "isVisible" : true,
+          "hasClippingMask" : false,
+          "nameIsFixed" : false,
+          "resizingType" : 0,
+          "isClosed" : true,
+          "isLocked" : false,
+          "points" : [
+            {
+              "_class" : "curvePoint",
+              "curveMode" : 1,
+              "hasCurveTo" : false,
+              "curveFrom" : "{0, 0}",
+              "point" : "{0, 0}",
+              "cornerRadius" : 0,
+              "curveTo" : "{0, 0}",
+              "hasCurveFrom" : false
+            },
+            {
+              "_class" : "curvePoint",
+              "curveMode" : 1,
+              "hasCurveTo" : false,
+              "curveFrom" : "{1, 0}",
+              "point" : "{1, 0}",
+              "cornerRadius" : 0,
+              "curveTo" : "{1, 0}",
+              "hasCurveFrom" : false
+            },
+            {
+              "_class" : "curvePoint",
+              "curveMode" : 1,
+              "hasCurveTo" : false,
+              "curveFrom" : "{1, 1}",
+              "point" : "{1, 1}",
+              "cornerRadius" : 0,
+              "curveTo" : "{1, 1}",
+              "hasCurveFrom" : false
+            },
+            {
+              "_class" : "curvePoint",
+              "curveMode" : 1,
+              "hasCurveTo" : false,
+              "curveFrom" : "{0, 1}",
+              "point" : "{0, 1}",
+              "cornerRadius" : 0,
+              "curveTo" : "{0, 1}",
+              "hasCurveFrom" : false
+            }
+          ],
+          "fixedRadius" : 0,
+          "pointRadiusBehaviour" : 1,
+          "isFixedToViewport" : false,
+          "shouldBreakMaskChain" : false,
+          "_class" : "rectangle",
+          "booleanOperation" : -1,
+          "resizingConstraint" : 63
         }
       ],
+      "nameIsFixed" : false,
+      "resizingType" : 0,
+      "userInfo" : {
+        "io.magicsketch.mirror" : {
+          "highestQuality" : 1
+        }
+      },
       "isLocked" : false,
-      "shouldBreakMaskChain" : true,
       "isFlowHome" : false,
+      "shouldBreakMaskChain" : true,
       "isFixedToViewport" : false,
       "_class" : "artboard",
       "booleanOperation" : -1,
-      "resizingConstraint" : 63,
-      "includeBackgroundColorInExport" : true
+      "includeBackgroundColorInExport" : true,
+      "resizingConstraint" : 63
     }
   ],
+  "nameIsFixed" : false,
+  "resizingType" : 0,
   "isLocked" : false,
   "shouldBreakMaskChain" : false,
   "isFixedToViewport" : false,
